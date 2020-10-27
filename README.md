@@ -8,7 +8,7 @@ Term: Fall 2020
 
 + Team ##
 + Team members
-	+ team member 1
+	+ Yue Liang yl4391
 	+ team member 2
 	+ team member 3
 	+ team member 4
@@ -20,7 +20,6 @@ Term: Fall 2020
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
-111
 
 ```
 proj/
