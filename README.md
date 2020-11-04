@@ -61,11 +61,14 @@ References:
 
 Weighted SVM: 
 https://machinelearningmastery.com/cost-sensitive-svm-for-imbalanced-classification
+
 Dense NN: 
 https://heartbeat.fritz.ai/classification-with-tensorflow-and-dense-neural-networks-8299327a818a
 https://digitalcommons.northgeorgia.edu/cgi/viewcontent.cgi?article=1036&context=honors_theses
+
 ResNet50:
 https://github.com/keras-team/keras-applications/blob/master/keras_applications/resnet50.py
+
 Past projects: https://github.com/TZstatsADS/Spring2020-Project3-group1
 
 
