@@ -19,7 +19,7 @@ Summary: In this project, we built several models including autoencoder, GBDT, S
 
 [Contribution Statement] 
 
-Elise: Ran GBM using original data set, tuned parameters/ performed cross validation, and trained GBM using best parameters to yield baseline; Trained and tested GBM on Balanced data set to see improvement; Tuned parameters/ performed cross validation, and trained other models, including standard SVM on balanced data set, weighted SVM on original data set, and KNN on balanced data set; Formatted file with Markdowns and headers to prep for Main file’s formatting; Wrote installation instructions for Tensorflow; Helped edit Powerpoint presentation formatting and content and helped write some speaker notes
+Elise Nguyen: Ran GBM using original data set, tuned parameters/ performed cross validation, and trained GBM using best parameters to yield baseline; Trained and tested GBM on Balanced data set to see improvement; Tuned parameters/ performed cross validation, and trained other models, including standard SVM on balanced data set, weighted SVM on original data set, and KNN on balanced data set; Formatted file with Markdowns and headers to prep for Main file’s formatting; Wrote installation instructions for Tensorflow; Helped edit Powerpoint presentation formatting and content and helped write some speaker notes
 
 Lingjia Zhang: carried out the training using Random Forest and XGBoost and tuned parameters after processing the imbalanced dataset by SMOTE.
 
