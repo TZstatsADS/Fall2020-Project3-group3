@@ -11,10 +11,19 @@ Below is an example. If no contribution statement is provided, we will insert a 
 ---
 Sample project README statement.
 
-Project xxx
+Project 3 
 
-Team members: Avi Bond, Comma Deed, En Funn, Gem Hon
+Team members: Yue Liang, Yunuo Ma, Wannian Lou, Linh Nguyen, Lingjia Zhang
 
-Summary: In this project, we developed a new method and improved the classification accuracy for images of cats and dogs to 99.9%
+Summary: In this project, we built several models including autoencoder, GBDT, SVM, Weighted SVM, KNN, Random Forest, XGBoost, ResNet50 and Densely Connected Neural Network based on a set of 3,000 facial images (imbalanced with a class ratio of about 4: 1, classified as 0 and 1 respectively) with 2 different types of emotions: compound emotions(classified as 0) versus simple (basic) emotions(classified as 1). Data preprocessing including dealing with imbalanced data (oversampling or generating new data for the class with smaller number of original samples) and images cropping are implemented with different methods for different models. Model evaluation and selection on imbalanced data are implemented. Based on the performance of our models, the best advance model is Densely Connected Neural Network with 0.90 testing accuracy and 0.98 testing AUC, which trained within 3 minutes. Our result is significantly improved comparing to Gradient Boosting Machine(GBM) baseline model with training time around 15 minutes, 0.82 testing accuracy and 0.81 testing AUC.
 
-[Contribution Statement] AB, CD, EF and GH designed the study. AB and CD developed baseline classification model for evaluation. EF and GH explored feature engineering for improving the baseline model. AB, EF and GH discussed and designed the model evaluation protocol. CD carried out the computation for model evaluation. All team members contributed to the GitHub repository and prepared the presentation. All team members approve our work presented in our GitHub repository including this contribution statement.
+[Contribution Statement] 
+
+Elise: Ran GBM using original data set, tuned parameters/ performed cross validation, and trained GBM using best parameters to yield baseline; Trained and tested GBM on Balanced data set to see improvement; Tuned parameters/ performed cross validation, and trained other models, including standard SVM on balanced data set, weighted SVM on original data set, and KNN on balanced data set; Formatted file with Markdowns and headers to prep for Main file’s formatting; Wrote installation instructions for Tensorflow; Helped edit Powerpoint presentation formatting and content
+
+Lingjia Zhang: carried out the training using Random Forest and XGBoost and tuned parameters after processing the imbalanced dataset by SMOTE.
+
+Yue Liang: Preprocessed the imbalanced dataset to create a balanced dataset for the team; Built the advanced model - Densely Connected Neural Network, trained and tested it on the balanced dataset; Built the Autoencoder Model and ran it on the balanced dataset; Built the Logistics Regression, GBDT, GBDT+Logistics Regression; Tuned the parameters of those models using cross validation; Trained and tested them on balanced dataset; Combined the baseline model and the advanced model into the main file and built the prediction codes; Formatted the main files and the notebooks to give more detailed instruction on running the files; Put all models’ metrics together for comparison; Helped edit Powerpoint presentation content and formats.
+
+Yunuo Ma: Built and Implemented ResNet50 model including images cropping, dealing with imbalanced data (oversampling using SMOTE), Normalizing image vectors and convert training and testing labels, trained and tested ResNet50 on balanced dataset; Provided detailed information about model performance and intermediate processing steps. Wrote part of packages installations; Helped plot advanced model; Helped edit Powerpoint presentation content and formats; Formatted and composed README file.
+
