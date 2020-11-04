@@ -14,7 +14,7 @@ Term: Fall 2020
 	+ team member 4
 	+ team member 5
 
-+ Project summary: In this project, we created a classification engine for facial emotion recognition. We built several models based on a set of 3,000 facial images (imbalanced with a class ratio of about 4: 1) with 2 different types of emotions: compound emotions versus simple (basic) emotions. Model evaluation and selection on imbalanced data are implemented.
++ Project summary: In this project, we created a classification engine for facial emotion recognition. We built several models including autoencoder, GBDT, SVM, Weighted SVM, KNN, Random Forest, XGBoost, and ResNet50 based on a set of 3,000 facial images (imbalanced with a class ratio of about 4: 1) with 2 different types of emotions: compound emotions versus simple (basic) emotions. Data preprocessing including dealing with imbalanced data (oversampling) and images cropping are implemented with different methods for different models. Model evaluation and selection on imbalanced data are implemented.
 	
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
