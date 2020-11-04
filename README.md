@@ -29,24 +29,25 @@ Yunuo Ma: Built and Implemented ResNet50 model including images cropping, dealin
 Wannian Lou: Organized all the algorithm and write them into the main file(GBM&DNN) with Yue Liang, made the Powerpoint and cooperate with other teammates. 
 
 Installation instructions:
-1.     Download and install Anaconda or the smaller Miniconda.
-2.     On Windows open the Start menu and open an Anaconda Command Prompt. On macOS or Linux open a terminal window. Use the default bash shell on macOS or Linux.
-3.     Type in pip install --ignore-installed --upgrade tensorflow
-4.     Launch Jupyter Notebook from Anaconda Navigator 
+1. Download and install Anaconda or the smaller Miniconda.
+2. On Windows open the Start menu and open an Anaconda Command Prompt. On macOS or Linux open a terminal window. Use the default bash shell on macOS or Linux.
+3. Type in pip install --ignore-installed --upgrade tensorflow
+4. Launch Jupyter Notebook from Anaconda Navigator 
  
 If that doesn’t work, follow detailed tutorial below: 
 
 https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/
-1.     Download and install Anaconda or the smaller Miniconda.
-2.     On Windows open the Start menu and open an Anaconda Command Prompt. On macOS or Linux open a terminal window. Use the default bash shell on macOS or Linux.
-3.     Choose a name for your TensorFlow environment, such as “tf”.
-4.     To install the current release of CPU-only TensorFlow, recommended for beginners, type in :
+1. Download and install Anaconda or the smaller Miniconda.
+2. On Windows open the Start menu and open an Anaconda Command Prompt. On macOS or Linux open a terminal window. Use the default bash shell on macOS or Linux.
+3. Choose a name for your TensorFlow environment, such as “tf”.
+4. To install the current release of CPU-only TensorFlow, recommended for beginners, type in :
 conda create -n tf tensorflow
 After it’s done running, type and run the following: 
 conda activate tf
 Launch Anaconda, in Applications on, select tf. Launch Jupyter notebook from there. Update Anaconda if prompted/ needed.
 
 Install the following packages and others required by the Main file by entering these commands in Anaconda Command Prompt if you don’t already have them:
+
 conda install sklearn: https://scikit-learn.org/stable/install.html
 conda install pandas
 conda install numpy
@@ -57,6 +58,7 @@ conda install tensorflow
 conda install keras
 
 References: 
+
 Weighted SVM: 
 https://machinelearningmastery.com/cost-sensitive-svm-for-imbalanced-classification
 Dense NN: 
@@ -65,6 +67,7 @@ https://digitalcommons.northgeorgia.edu/cgi/viewcontent.cgi?article=1036&context
 ResNet50:
 https://github.com/keras-team/keras-applications/blob/master/keras_applications/resnet50.py
 Past projects: https://github.com/TZstatsADS/Spring2020-Project3-group1
+
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
