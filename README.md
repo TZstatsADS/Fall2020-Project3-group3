@@ -10,9 +10,9 @@ Term: Fall 2020
 + Team members
 	+ Yue Liang yl4391
 	+ Yunuo Ma ym2774
-	+ team member 3
-	+ team member 4
-	+ team member 5
+	+ Lou Wannian wl2727
+	+ Nguyen Linh lkn2114
+	+ Zhang Lingjia lz2720
 
 + Project summary: In this project, we created a classification engine for facial emotion recognition. We built several models including autoencoder, GBDT, SVM, Weighted SVM, KNN, Random Forest, XGBoost, and ResNet50 based on a set of 3,000 facial images (imbalanced with a class ratio of about 4: 1) with 2 different types of emotions: compound emotions versus simple (basic) emotions. Data preprocessing including dealing with imbalanced data (oversampling) and images cropping are implemented with different methods for different models. Model evaluation and selection on imbalanced data are implemented.
 	
