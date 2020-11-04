@@ -26,6 +26,8 @@ Yue Liang:  Preprocessed the imbalanced dataset to create a balanced dataset for
 
 Yunuo Ma: Built and Implemented ResNet50 model including images cropping, dealing with imbalanced data (oversampling using SMOTE), Normalizing image vectors and convert training and testing labels, trained and tested ResNet50 on balanced dataset; Provided detailed information about model performance and intermediate processing steps. Wrote part of packages installations; Helped plot advanced model; Helped edit Powerpoint presentation content and formats; Formatted and composed README file.
 
+Wannian Lou: Organized all the algorithm and write them into the main file(GBM&DNN) with Yue Liang, made the Powerpoint and cooperate with other teammates. 
+
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
